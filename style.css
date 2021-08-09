@@ -3,6 +3,11 @@
 *{
 	box-sizing: border-box;
 }
+@font-face {
+	font-family: 'CoreCircus';
+	src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.eot');
+	src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.eot?#iefix') format('embedded-opentype'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.woff2') format('woff2'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.woff') format('woff'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.ttf') format('truetype');
+}
 body{
 	font-family: 'Roboto',sans-serif;
 	margin: 0;
@@ -11,9 +16,8 @@ body{
 	overflow: auto;
 	min-height: 100vh;
 	/* background-color: var(--primary-color); */
-	
-	background-color: #191313;
-
+    background-image: url("https://user-images.githubusercontent.com/26748614/96337246-f14d4580-1085-11eb-8793-a86d929e034d.jpg");
+	backdrop-filter:  brightness(50%);
 }
 :root{
 	--primary-color: #2C2E43 ;
@@ -24,18 +28,28 @@ header{
 	display: flex;
 	justify-content: flex-start;
 	/* background-color: var(--secondary-color); */
-	background-color: rgb(196 23 23);
+	background-color: #FF6F3C;
+	position: fixed;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	border-width: 10px;
+	border-width: 10px;
+
+	
+	
 }
+
 .Search{
 	/* background-color: transparent; */
-	background-color: #00000036;
+	background-color: #262A53;
 	border-radius: 50px;
 	border: 2px solid var(--primary-color);
 	padding: 0.5rem 1rem;
 	font-size: 1rem;
 	font-family: inherit;
 	color: #FFBCBC;
-	
+	margin-right: 10%;
 
 
 }
@@ -45,6 +59,9 @@ header{
 }
 .Search:placeholder{
 	color: #FFBCBC;
+}
+.Search:hover{
+	background-color: var(--primary-color);
 }
 main{
 	display: flex;
@@ -61,6 +78,7 @@ main{
 	background-color: #a10e0e;
 	position: relative;
 	overflow: hidden;
+	cursor: pointer;
 
 }
 .movie img{
@@ -108,16 +126,49 @@ main{
 	transform: translateY(0px);
 
 }
-#genre{
-	background-color: transparent;
+.trendBtn{
+	background-color: #0F4C75;
 	border-radius: 50px;
 	border: 2px solid var(--primary-color);
 	padding: 0.5rem 1rem;
 	font-size: 1rem;
-	font-family: inherit;
-	color: #FFBCBC;
+	color: ghostwhite;
+	
+
 }
-#genre:focus{
-	outline: 0;
-	background-color: var(--primary-color);
+.trendBtn:hover{
+	background-color: #0F044C;
+	cursor: pointer;
 }
+.trendBtn:focus{
+	background-color: #0F044C;
+	cursor: pointer;
+}
+#tags{
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 10px auto;
+}
+.tag{
+	color: white;
+	padding: 10px 20px;
+	background-color: orange;
+	border-radius: 50px;
+	margin: 5px 5px;
+	display: inline-block;
+	cursor: pointer;
+}
+.trendBtn{
+	margin: 10px;
+}
+.tag.highlight{
+	background-color: blue;
+}
+.noRes{
+	color: white;
+}
+
+
