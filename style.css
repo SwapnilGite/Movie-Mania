@@ -24,17 +24,19 @@ body{
 	--secondary-color: #595260  ;
 }
 header{
-	padding: 1rem;
+	padding: 0.5rem;
 	display: flex;
 	justify-content: flex-start;
 	/* background-color: var(--secondary-color); */
-	background-color: #FF6F3C;
+	/* background-color: #f13434; */
+	background-color: rgb(241 26 26);
 	position: fixed;
 	position: sticky;
 	top: 0;
 	z-index: 1;
 	border-width: 10px;
-	border-width: 10px;
+	flex-wrap: wrap;
+	
 
 	
 	
@@ -50,6 +52,7 @@ header{
 	font-family: inherit;
 	color: #FFBCBC;
 	margin-right: 10%;
+	margin-top: 20px;
 
 
 }
@@ -133,6 +136,7 @@ main{
 	padding: 0.5rem 1rem;
 	font-size: 1rem;
 	color: ghostwhite;
+	box-shadow: 10px 10px 10px #7832329c;
 	
 
 }
@@ -161,14 +165,15 @@ main{
 	display: inline-block;
 	cursor: pointer;
 }
+
 .trendBtn{
 	margin: 10px;
 }
 .tag.highlight{
 	background-color: blue;
 }
+.tag:hover {
+    background-color: rgba(255, 0, 0, 0.945);}
 .noRes{
 	color: white;
 }
-
-
