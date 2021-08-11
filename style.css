@@ -16,7 +16,7 @@ body{
 	overflow: auto;
 	min-height: 100vh;
 	/* background-color: var(--primary-color); */
-    background-image: url("https://user-images.githubusercontent.com/26748614/96337246-f14d4580-1085-11eb-8793-a86d929e034d.jpg");
+    background-image: url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png");
 	backdrop-filter:  brightness(50%);
 }
 :root{
@@ -29,42 +29,36 @@ header{
 	justify-content: flex-start;
 	/* background-color: var(--secondary-color); */
 	/* background-color: #f13434; */
-	background-color: rgb(241 26 26);
+	background-color: #FFED99;
 	position: fixed;
 	position: sticky;
 	top: 0;
 	z-index: 1;
 	border-width: 10px;
 	flex-wrap: wrap;
-	
-
-	
-	
 }
 
 .Search{
 	/* background-color: transparent; */
-	background-color: #262A53;
+	background-color: #FFE9D6;
 	border-radius: 50px;
-	border: 2px solid var(--primary-color);
+	border: 2px solid #DE8971;
 	padding: 0.5rem 1rem;
 	font-size: 1rem;
 	font-family: inherit;
-	color: #FFBCBC;
-	margin-right: 10%;
-	margin-top: 20px;
-
-
+	color: black;
+	margin-top: 10px;
+	margin-left: 5%;
 }
 .Search:focus{
 	outline: 0;
-	background-color: var(--primary-color);
+	background-color: #FFE9D6;
 }
 .Search:placeholder{
-	color: #FFBCBC;
+	color: black;
 }
 .Search:hover{
-	background-color: var(--primary-color);
+	background-color: #FFE9D6;
 }
 main{
 	display: flex;
@@ -130,7 +124,7 @@ main{
 
 }
 .trendBtn{
-	background-color: #0F4C75;
+	background-color: #C68B59;
 	border-radius: 50px;
 	border: 2px solid var(--primary-color);
 	padding: 0.5rem 1rem;
@@ -141,11 +135,11 @@ main{
 
 }
 .trendBtn:hover{
-	background-color: #0F044C;
+	background-color: #F1CA89;
 	cursor: pointer;
 }
 .trendBtn:focus{
-	background-color: #0F044C;
+	background-color: #F1CA89;
 	cursor: pointer;
 }
 #tags{
@@ -170,10 +164,35 @@ main{
 	margin: 10px;
 }
 .tag.highlight{
-	background-color: blue;
+	background-color: rgba(255, 0, 0, 0.945);
 }
 .tag:hover {
     background-color: rgba(255, 0, 0, 0.945);}
 .noRes{
 	color: white;
+}
+.pagination{
+	display: flex;
+	margin: 10px 30px;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+.page{
+	padding: 30px;
+	font-size: 35px;
+	cursor: pointer;
+
+}
+.page.disabled{
+	cursor: not-allowed;
+	color: grey;
+}
+.current{
+	padding:10px 20px;
+	border-radius: 50px;
+	border: 5px solid #753422;
+	font-size: 20px;
+	font-weight: 600;
+	cursor: default;
 }
