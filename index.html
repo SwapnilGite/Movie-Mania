@@ -7,7 +7,7 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<style type="text/css">
 			h1{
-/* 				padding-top:10px ;
+				/* padding-top:10px ;
 				padding-right: 10px; */
 				color: #299ce3;
 				text-align: center;
@@ -30,34 +30,32 @@
 		<header>
 			
 			
-			<form id="form">
+			<form id="form" style="height: 59px;">
 				
 				<input type="text" autocomplete="off" id="Search" placeholder="Search Movies..." class="Search" >
-
-						
+				
 				
 				
 			</form>
-
 			
 		</header>
 		<div class="btn" style="justify-content: center;align-content: center;display: flex;padding: 10px 10px;">
-		<button type="button" class="trendBtn" id="trend">Trending TV Shows</button>
-				<button type="button" class="trendBtn" id="trMovie">Trending Movies</button>
-				<button type="button" class="trendBtn" id="engMovie">English</button>
-				<button type="button" class="trendBtn" id="hinMovie">Hindi</button>
-				<button type="button" class="trendBtn" id="hinTV">Hindi TV shows</button>
-			</div>
+			<button type="button" class="trendBtn" id="trend">Trending TV Shows</button>
+			<button type="button" class="trendBtn" id="trMovie">Trending Movies</button>
+			<button type="button" class="trendBtn" id="engMovie">English</button>
+			<button type="button" class="trendBtn" id="hinMovie">Hindi</button>
+			<button type="button" class="trendBtn" id="hinTV">Hindi TV shows</button>
+		</div>
 		<div id="tags">
-					<div class="tag">Action</div>
-					<div class="tag">Adventure</div>
-					<div class="tag">Drama</div>
-					<div class="tag">Comedy</div>
-				</div>
+			<div class="tag">Action</div>
+			<div class="tag">Adventure</div>
+			<div class="tag">Drama</div>
+			<div class="tag">Comedy</div>
+		</div>
 		
 		
 		
-
+		<hr style=" width: 5%; border-style: dotted none none none; border-top: 10px dotted grey ;">
 		<main id="main">
 			<div class="movie">
 				<img src="back-img.jpg">
@@ -102,6 +100,11 @@
 				
 			</div>
 		</main>
+		<div class="pagination" >
+			<div class="page" id="prev"><</div>
+			<div class="current" id="current">1</div>
+			<div class="page" id="next">></div>
+		</div>
 		<script type="text/javascript" src="script.js"></script>
 	</body>
 </html>
