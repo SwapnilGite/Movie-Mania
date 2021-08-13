@@ -5,16 +5,7 @@
 		<title>Movie Search Website</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<style type="text/css">
-			h1{
-				/* padding-top:10px ;
-				padding-right: 10px; */
-				color: #299ce3;
-				text-align: center;
-				font-family: 'CoreCircus', sans-serif;
-				text-transform: uppercase;
-				
-			}
+		<style >			
 			.Summary{
 				font-family: cursive;
 			}
@@ -24,8 +15,8 @@
 		</style>
 	</head>
 	<body>
-		<div>
-			<h1>Movie Mania</h1>
+		<div class="wrapper">
+			<h1 class="title">Movie Mania</h1>
 		</div>
 		<header>
 			
@@ -38,14 +29,14 @@
 				
 			</form>
 			
+			<div class="btn" style="justify-content: center;align-content: center;display: flex;padding: 10px 10px;">
+				<button type="button" class="trendBtn" id="trend">Trending TV Shows</button>
+				<button type="button" class="trendBtn" id="trMovie">Trending Movies</button>
+				<button type="button" class="trendBtn" id="engMovie">English</button>
+				<button type="button" class="trendBtn" id="hinMovie">Hindi</button>
+				<button type="button" class="trendBtn" id="hinTV">Hindi TV shows</button>
+			</div>
 		</header>
-		<div class="btn" style="justify-content: center;align-content: center;display: flex;padding: 10px 10px;">
-			<button type="button" class="trendBtn" id="trend">Trending TV Shows</button>
-			<button type="button" class="trendBtn" id="trMovie">Trending Movies</button>
-			<button type="button" class="trendBtn" id="engMovie">English</button>
-			<button type="button" class="trendBtn" id="hinMovie">Hindi</button>
-			<button type="button" class="trendBtn" id="hinTV">Hindi TV shows</button>
-		</div>
 		<div id="tags">
 			<div class="tag">Action</div>
 			<div class="tag">Adventure</div>
@@ -107,4 +98,4 @@
 		</div>
 		<script type="text/javascript" src="script.js"></script>
 	</body>
-</html>
+</html
