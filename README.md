@@ -45,5 +45,8 @@ We are make the Movie api app
 ## Screenshots
 
 ![App Screenshot](ss1.png)
+![App Screenshot](ss2.png)
+![App Screenshot](ss3.png)
+
 
   
