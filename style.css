@@ -16,49 +16,56 @@ body{
 	overflow: auto;
 	min-height: 100vh;
 	/* background-color: var(--primary-color); */
-    background-image: url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png");
+    /* background-image: url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png"); */
+	background: url("https://wallpapercave.com/wp/wp3616315.jpg");
+	background-size: 150vh;
 	backdrop-filter:  brightness(50%);
 }
 :root{
 	--primary-color: #2C2E43 ;
 	--secondary-color: #595260  ;
 }
+
 header{
-	padding: 0.5rem;
+	/* padding: 0.5rem; */
 	display: flex;
 	justify-content: flex-start;
 	/* background-color: var(--secondary-color); */
-	/* background-color: #f13434; */
-	background-color: #FFED99;
+	background-color: #a10e0e;
+	border-radius: 50px;
 	position: fixed;
 	position: sticky;
 	top: 0;
 	z-index: 1;
 	border-width: 10px;
 	flex-wrap: wrap;
+	/* background: url("https://cdn.hipwallpaper.com/i/54/1/2EJAPF.jpg"); */
+	/* background: url("https://wallpaperaccess.com/full/336786.jpg"); */
+	/* background-size: 150vh; */
 }
 
 .Search{
 	/* background-color: transparent; */
-	background-color: #FFE9D6;
+	/* background-color: #FFE9D6; */
+	background-color: black;
 	border-radius: 50px;
-	border: 2px solid #DE8971;
+	border: 2px solid black;
 	padding: 0.5rem 1rem;
 	font-size: 1rem;
 	font-family: inherit;
-	color: black;
-	margin-top: 10px;
+	color: orange;
+	margin-top: 20px;
 	margin-left: 5%;
 }
 .Search:focus{
 	outline: 0;
-	background-color: #FFE9D6;
+	background-color: #0f0d0d;
 }
 .Search:placeholder{
-	color: black;
+	color: rgb(240, 234, 234);
 }
 .Search:hover{
-	background-color: #FFE9D6;
+	background-color: #050504;
 }
 main{
 	display: flex;
@@ -124,23 +131,35 @@ main{
 
 }
 .trendBtn{
-	background-color: #C68B59;
-	border-radius: 50px;
-	border: 2px solid var(--primary-color);
+	/* background-color: #C68B59; */
+	
+	/* background-color: #a10e0e; */
+	background-color: black;
+	border-radius: 50px; 
+	border: 1px solid var(--primary-color);
+	
 	padding: 0.5rem 1rem;
 	font-size: 1rem;
-	color: ghostwhite;
-	box-shadow: 10px 10px 10px #7832329c;
 	
-
+	color: white;
+	
+	
+	
+	
 }
 .trendBtn:hover{
-	background-color: #F1CA89;
+	
+	background-color: rgba(0, 0, 0, 0.411);
+	border-radius: 50px;
+	box-shadow: 5px 5px 5px #0000009c;
 	cursor: pointer;
+	color: white;
 }
 .trendBtn:focus{
-	background-color: #F1CA89;
+	/* background-color: #F1CA89; */
+	background-color: rgba(255, 0, 0, 0.616);
 	cursor: pointer;
+
 }
 #tags{
 	width: 80%;
@@ -151,20 +170,27 @@ main{
 	margin: 10px auto;
 }
 .tag{
-	color: white;
+	
+	color: black;
 	padding: 10px 20px;
 	background-color: orange;
 	border-radius: 50px;
 	margin: 5px 5px;
 	display: inline-block;
 	cursor: pointer;
+	font-family:  'Fira Sans', sans-serif;
+	
+}
+.tag:hover{
+	color: white;
+	box-shadow: 5px 5px 5px black;
 }
 
 .trendBtn{
 	margin: 10px;
 }
 .tag.highlight{
-	background-color: rgba(255, 0, 0, 0.945);
+	background-color: rgba(255, 0, 0, 0.616);
 }
 .tag:hover {
     background-color: rgba(255, 0, 0, 0.945);}
@@ -190,9 +216,42 @@ main{
 }
 .current{
 	padding:10px 20px;
-	border-radius: 50px;
-	border: 5px solid #753422;
+	border-radius:100%;
+	border: 5px solid white;
 	font-size: 20px;
 	font-weight: 600;
 	cursor: default;
+}
+
+ .wrapper{
+	width: 100%;
+	font-size: 18px;
+	margin: 0;
+
+ }
+
+.title{
+	padding-top:10px ; 
+   /* padding-right: 10px;  */
+   color: #ff0000ab;
+   text-align: center;
+   font-family: 'CoreCircus', sans-serif;
+   text-transform: uppercase;
+   background: url("https://c4.wallpaperflare.com/wallpaper/203/117/172/fire-4k-hd-background-download-wallpaper-preview.jpg" ) repeat-x;
+  background-clip: text; 
+   background-size: contain;
+   animation: fire 14s linear infinite;
+   
+   
+}
+@keyframes fire {
+   0%{
+	   background-position: left 0px top 0px;
+   }
+   /* 50%{
+	   background-position: left 130px top -35px; */
+   /* } */
+   100%{
+	   background-position: left 250px top 0px;
+   }
 }
