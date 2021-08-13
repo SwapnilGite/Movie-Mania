@@ -31,7 +31,7 @@ header{
 	display: flex;
 	justify-content: flex-start;
 	/* background-color: var(--secondary-color); */
-	background-color: #a10e0e;
+	/*background-color: #50E3C2;*/
 	border-radius: 50px;
 	position: fixed;
 	position: sticky;
@@ -39,33 +39,34 @@ header{
 	z-index: 1;
 	border-width: 10px;
 	flex-wrap: wrap;
+	height: 80px;
 	/* background: url("https://cdn.hipwallpaper.com/i/54/1/2EJAPF.jpg"); */
-	/* background: url("https://wallpaperaccess.com/full/336786.jpg"); */
-	/* background-size: 150vh; */
+	 background: url("https://wallpaperaccess.com/full/336786.jpg"); 
+	 background-size: 150vh; 
 }
 
 .Search{
 	/* background-color: transparent; */
 	/* background-color: #FFE9D6; */
-	background-color: black;
+	background-color: #323232;
 	border-radius: 50px;
 	border: 2px solid black;
 	padding: 0.5rem 1rem;
 	font-size: 1rem;
 	font-family: inherit;
-	color: orange;
+	color: #DEFF8B;
 	margin-top: 20px;
-	margin-left: 5%;
+	margin-left: 10%;
 }
 .Search:focus{
 	outline: 0;
-	background-color: #0f0d0d;
+	background-color: #4A3F35;
 }
 .Search:placeholder{
 	color: rgb(240, 234, 234);
 }
 .Search:hover{
-	background-color: #050504;
+	background-color: #4A3F35;
 }
 main{
 	display: flex;
@@ -123,7 +124,7 @@ main{
 	background-color: #fe7a21;
 	padding: 1rem;
 	max-height: 100%;
-	transform: translateY(500px);
+	transform: translateY(600px);
 	transition: transform 1s ease-in;
 }
 .movie:hover .Summary{
@@ -134,7 +135,7 @@ main{
 	/* background-color: #C68B59; */
 	
 	/* background-color: #a10e0e; */
-	background-color: black;
+	background-color: #B85C38;
 	border-radius: 50px; 
 	border: 1px solid var(--primary-color);
 	
@@ -142,14 +143,10 @@ main{
 	font-size: 1rem;
 	
 	color: white;
-	
-	
-	
-	
 }
 .trendBtn:hover{
 	
-	background-color: rgba(0, 0, 0, 0.411);
+	background-color: #CC561E;
 	border-radius: 50px;
 	box-shadow: 5px 5px 5px #0000009c;
 	cursor: pointer;
@@ -157,7 +154,7 @@ main{
 }
 .trendBtn:focus{
 	/* background-color: #F1CA89; */
-	background-color: rgba(255, 0, 0, 0.616);
+	background-color: #CC561E;
 	cursor: pointer;
 
 }
@@ -233,17 +230,18 @@ main{
 .title{
 	padding-top:10px ; 
    /* padding-right: 10px;  */
-   color: #ff0000ab;
+   color: #00f3ff;
    text-align: center;
    font-family: 'CoreCircus', sans-serif;
    text-transform: uppercase;
-   background: url("https://c4.wallpaperflare.com/wallpaper/203/117/172/fire-4k-hd-background-download-wallpaper-preview.jpg" ) repeat-x;
+  /* background: url("https://c4.wallpaperflare.com/wallpaper/203/117/172/fire-4k-hd-background-download-wallpaper-preview.jpg" ) repeat-x;
   background-clip: text; 
    background-size: contain;
-   animation: fire 14s linear infinite;
+   animation: fire 14s linear infinite;*/
    
    
 }
+
 @keyframes fire {
    0%{
 	   background-position: left 0px top 0px;
