@@ -1,25 +1,21 @@
 
 
     
-# Asci Project Movie API APP
-We are make the Movie api app 
-
-
+# Asci Project-Movie API Web Application
+Movie Search Web Application 
 
 ## Team members
-
-
-
- 1]@swapnil Gite https://github.com/SwapnilGite
+ 1]@Swapnil Gite https://github.com/SwapnilGite
  2]@Mohan Mali https://github.com/MVMali
 
  ## Guided by
  1)Anjali Dofe
- 2)Mrunal Potker
- 
+ 2)Mrunal Kotkar
+## Color Reference
+   colorhunt.co
 
 ## API Reference
-
+API used = tmdb api
 #### Get movies by genre
 
 ```http
@@ -28,20 +24,30 @@ We are make the Movie api app
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `Genre` | `string` | api_key=adfe28716db7626ea54e19adc5569c0|
+| `Genre` | `string` |Required-Api_key|
 
 
-#### Get trending movies by week
+#### Get trending movies/tv by week
 
 ```http
   GET /trending/Movie/week
+  GET /trending/tv/week
+  
 ```
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `time_window`      | `string` |Required.api_key  |
+| `time_window`      | `string` |Required-Api_key  |
 
-  
+## Other References
+    https://www.w3schools.com/
+    https://developer.mozilla.org/
+ 
+## Features
+   - Search for a movie by typing name in the Search Box
+   - See trending movies/tv shows by clicking on specific trending buttons
+   - Hover/click on movie poster to read overview of the movie
+   - Ratings of movie/tv shows are differentiated using proper colors
 ## Screenshots
 
 ![App Screenshot](ss1.png)
