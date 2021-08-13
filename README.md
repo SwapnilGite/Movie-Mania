@@ -44,6 +44,6 @@ We are make the Movie api app
   
 ## Screenshots
 
-![App Screenshot](background.jpg)
+![App Screenshot](ss1.png)
 
   
