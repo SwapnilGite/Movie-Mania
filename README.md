@@ -1,21 +1,21 @@
 <img src='https://shop.tamburino.it/wp-content/uploads/2017/10/ricerca_film_001.png' width='100' height='100'>
     
     
-# Asci Project-Movie API Web Application
-Movie Search Web Application 
+# Asci Project 1 : Movie Search Web Application
+A Movie Search Web Application with different filters such as genre , type of shows and language.
 
 ## Team members
- 1]@Swapnil Gite https://github.com/SwapnilGite
- 2]@Mohan Mali https://github.com/MVMali
+ - Swapnil Gite https://github.com/SwapnilGite
+ - Mohan Mali https://github.com/MVMali
 
- ## Guided by
- 1)Anjali Dofe
- 2)Mrunal Kotkar
 ## Color Reference
    colorhunt.co
 
-## API Reference
-API used = tmdb api
+## Technologies used
+- Language => HTML , CSS , Javascript
+- Code editors => Sublime Text , Visual Studio Code
+- Chrome DevTools
+- API used => tmdb api
 #### Get movies by genre
 
 ```http
@@ -44,14 +44,17 @@ API used = tmdb api
     https://developer.mozilla.org/
  
 ## Features
-   - Search for a movie by typing name in the Search Box
-   - See trending movies/tv shows by clicking on specific trending buttons
-   - Hover/click on movie poster to read overview of the movie
-   - Ratings of movie/tv shows are differentiated using proper colors
+   - Search for a movie by typing name in the Search Box.
+   - See trending movies/tv shows by clicking on specific trending buttons.
+   - Hover/click on movie poster to read overview of the movie.
+   - Ratings of movie/tv shows are differentiated using proper colors.
+   
 ## Screenshots
-
+- Home Page(top)
 ![App Screenshot](ss1.png)
+- Home Page(bottom)
 ![App Screenshot](ss2.png)
+- Search results
 ![App Screenshot](ss3.png)
 
 
