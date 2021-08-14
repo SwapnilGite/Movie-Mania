@@ -1,5 +1,5 @@
-![Logo](https://shop.tamburino.it/wp-content/uploads/2017/10/ricerca_film_001.png)
-
+<img src='https://shop.tamburino.it/wp-content/uploads/2017/10/ricerca_film_001.png' width='200' height='200'>
+    
     
 # Asci Project-Movie API Web Application
 Movie Search Web Application 
